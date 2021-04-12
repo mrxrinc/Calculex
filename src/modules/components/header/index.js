@@ -17,7 +17,7 @@ export default class Header extends Component {
           <View style={[s.defaultContent, r.full, r.center, r.rightItems]}>
             <Text size={22} style={[g.black]}>25 + 456 + 322 - 9389</Text>
             <Text bold size={40} style={[g.black, r.topM10]}>
-              54333.3
+              54333.3 
             </Text>
           </View>
         </View>

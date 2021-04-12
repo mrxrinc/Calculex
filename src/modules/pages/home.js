@@ -25,7 +25,7 @@ const Calculex = () => {
           </View>
           <View style={[g.body]}>
             <Body />
-            {/* <Advance /> */}
+            <Advance />
           </View>
         </View>
       </SafeAreaView>

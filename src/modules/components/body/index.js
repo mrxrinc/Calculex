@@ -49,7 +49,13 @@ export default class Body extends Component {
             }
 
             <View style={[r.full]}>
-              <View style={[{ flex: 2 }]} />
+              <View style={[{ flex: 2 }]}>
+                <View style={[r.full, r.f]} />
+                <View  style={[r.full,r.center, r.d]}>
+                <Icon name={'left'} />
+                </View>
+              </View>
+
               <View style={[r.hP10, r.vP20, { flex: 2 }]}>
                 <Button 
                   icon='equal'
@@ -58,6 +64,7 @@ export default class Body extends Component {
                   activeOpacity={0.5}
                   press={() => buttonAction('equal')} />
               </View>
+
               <View style={[r.full]}>
                 <Button 
                   icon='plus'
